@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    padding: 5%;
+    background-color: #fff;
+}
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.image{
+    width: 170px;
+    height: 160px;
+}
+.me-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.text-container{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 20px;
+    
+}
+.text-container input{
+    width: 88%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 28px;
+    background-color: bisque;
+    color: black;
+}
+.text-container button{
+    width: 8%;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: bisque;
+}
+
+.me-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    
+}
+
+.message{
+    color: black;
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-style: italic;
+    border: 2px solid black;
+    padding: 9px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+}
+.server-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
